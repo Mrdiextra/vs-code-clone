@@ -1,0 +1,360 @@
+.navbar {
+    height: 58px;
+    width: 100%;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    color: white;
+    background-color: #0d1117;
+    border-bottom: 0.5px solid #ffffff1e;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #0d1117;
+}
+
+
+
+.logo {
+    gap: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo span {
+    font-size: 20px;
+    color: rgb(243, 253, 255);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.link-container {
+    gap: 20px;
+    display: flex;
+}
+
+.link-container a {
+
+    display: flex;
+    color: rgb(220, 220, 220);
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+
+}
+
+.button {
+    margin-left: 250px;
+
+}
+
+.button button {
+    height: 30px;
+    width: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(44, 135, 253);
+    color: white;
+    border-radius: 5px;
+    border: none;
+}
+
+.button input {
+    height: 30px;
+    width: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    background-color: transparent;
+    border: 1px solid white;
+    color: rgb(230, 251, 255);
+}
+
+.button input::placeholder {
+    color: rgb(220, 220, 220);
+}
+
+
+main {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+main p a {
+    color: rgb(37, 142, 255);
+
+}
+
+main p {
+    color: white;
+    font-size: small;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+main h1 {
+    font-family: sans-serif;
+    color: white;
+    font-size: 80px;
+
+}
+
+main span button {
+    margin-right: 5px;
+    border-radius: 5px;
+    border: none;
+    padding: 15px;
+    background-color: rgb(44, 135, 253);
+    font-size: large;
+    font-weight: 500;
+}
+
+main span #btn-2 {
+    margin-right: 5px;
+    border-radius: 5px;
+    border: 1px solid;
+    padding: 15px;
+    background-color: rgb(83, 83, 83);
+}
+
+main span {
+    margin-top: 10px;
+
+}
+
+.video-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 85%;
+    height: 120vh;
+    border-radius: 24px;
+    background-color: aliceblue;
+    background-image: url(hero-background.webp);
+    background-size: cover;
+    background-position: center;
+
+}
+
+.video-1 video {
+    width: 90%;
+    height: 90%;
+    border-radius: 24px;
+
+}
+
+.card {
+    align-items: flex-end;
+    justify-content: space-between;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    height: 60vh;
+    width: 85%;
+
+}
+
+.card .card-box {
+
+    padding-left: 15px;
+    padding-right: 15px;
+
+    height: 350px;
+    width: 369px;
+    background: rgba(125, 135, 155, 0.162);
+    border-radius: 10px;
+    border: 2px #4d4d4d solid;
+}
+
+.card .card-box img {
+    height: 200px;
+    width: 100%;
+
+}
+
+.card .card-box h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(220, 220, 220);
+    margin-top: 15px;
+
+}
+
+.card .card-box p,
+.first .left p {
+    margin-top: 20px;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(199, 205, 255);
+    font-size: 17px;
+    font-weight: 500;
+
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 10px;
+    margin-top: 40px;
+    height: 20vh;
+    width: 85%;
+    background-image: url(copilot-free-banner-bg-dark.webp);
+    background-repeat: no-repeat;
+    background-color: bisque;
+    background-size: cover;
+    border: 1px solid rgb(198, 198, 198);
+}
+
+.hero span button {
+    padding: 7px;
+    margin-top: 10px;
+    font-size: medium;
+    height: 35px;
+    background-color: #25292e;
+    border: 1px solid #4d4d4d;
+    color: #c3d0e5
+}
+
+.first {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 10px;
+    margin-top: 10px;
+    height: 90vh;
+    width: 85%;
+
+}
+
+.first .left {
+    display: flex;
+
+    justify-content: center;
+    flex-direction: column;
+    height: 80vh;
+    width: 40%;
+}
+
+.first .left h2 {
+    font-size: 30px;
+    color: rgb(199, 205, 255);
+}
+
+.first .left p {
+    width: 70%;
+    font-size: medium;
+    font-weight: 600;
+}
+
+.first .right {
+    background-position: center;
+    background-image: url(swimlane-chat-dark.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 24px;
+    height: 80vh;
+    width: 60%;
+
+}
+
+.extension-box {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    height: 417px;
+    width: 869px;
+
+    gap: 10px;
+    mask-image: linear-gradient(black, transparent);
+}
+
+.extension-box .extension-card {
+    display: flex;
+    height: 104px;
+    width: 255px;
+    background-color: #161523;
+    border-radius: 10px;
+    border: 2px #4d4d4d solid;
+}
+
+.icon-ex {
+    height: 100%;
+    width: 30%;
+    display: flex;
+    margin-top: 11px;
+    justify-content: center;
+
+}
+
+/* extension */
+.icon-ex img,
+.right-tech .lag img {
+    justify-content: center;
+    height: 40px;
+    width: 40px;
+}
+
+.icon-text {
+    height: 100%;
+    width: 70%;
+    margin-top: 20px;
+
+
+
+}
+
+.icon-text p {
+    margin-top: 10px;
+    height: 100%;
+    width: 70%;
+    margin-top: 10px;
+    color: rgb(199, 205, 255);
+    font-size: medium - 1px;
+    font-weight: 600;
+
+}
+
+.right-tech {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    gap: 8px;
+    width: 60%;
+    height: 184px;
+
+}
+
+.lag {
+   
+    gap: 15px;
+    justify-content: start;
+    align-items: center;
+    display: flex;
+    height: 40px;
+    width: 250px;
+
+}
+
+.lag p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: medium;
+}
