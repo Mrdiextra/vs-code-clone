@@ -31,6 +31,9 @@ body {
     justify-content: center;
     align-items: center;
 }
+.menu{
+    display: none;
+}
 
 .logo span {
     font-size: 20px;
@@ -141,7 +144,9 @@ main span {
     justify-content: center;
     align-items: center;
     width: 85%;
-    height: 120vh;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    height: fit-content;
     border-radius: 24px;
     background-color: aliceblue;
     background-image: url(hero-background.webp);
@@ -231,7 +236,7 @@ main span {
 
 .first {
     display: flex;
-    flex-direction: row;
+    
     align-items: center;
     justify-content: space-around;
     border-radius: 10px;
